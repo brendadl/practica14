@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<html>
+
+<head>
+     <meta charset="utf-8">
+     <title>Practica 14</title>
+
+</head>
+
+<body>
+
+<h2 align="left">Restaurante el centollo</h2>
+<h3>Haz tu reserva</h2>
+
+<form action="#"method="post">
+      	<p>Nombre:<input type="text" name="nombre" placeholder=""autofocus=""></p>
+     	<p>Correo electrónico: <input type="email" name="correo"=""autofocus=""></p>
+      	<p>Teléfono: <input type="text" name="telefono"=""autofocus=""></p>
+	<p>
+	Fecha de reserva: <input type="date" name="fecha">
+	</p>
+	
+	<p>Franja Horaria: 
+		<select id="mu" style=" width: 160px;">
+  			<option value="1">13:00 -- 14:00</option>
+			<option value="2">14:00 -- 15:00</option>
+			<option value="3">15:00 -- 16:00</option>
+		</select>
+	</p>
+
+
+        <p>Comensales(min 1, max 10): <input  type="number" name="comensales" min="1" max="10" ></p>
+
+	<p>
+	Color del mantel <input type="color" name="nombrecolor">
+	</p>
+
+	<p>
+	Demandas especiales <br>
+	<textarea name="texto" rows="3" cols="30" placeholder="alergias, tronas, ..."></textarea>
+	</p>
+ 
+        <p><input type="submit"></p>
+
+</form>
+
+</body>
+
+</html>
